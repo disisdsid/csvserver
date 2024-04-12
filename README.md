@@ -1,4 +1,6 @@
 part 1
+
+
 docker run -d --name csvserver infracloudio/csvserver:latest
 docker run -d --name csvserver infracloudio/csvserver:latest
 docker run -d --name csvserver infracloudio/csvserver:latest
@@ -22,6 +24,8 @@ git remote add disisdsid repo-http-endpoint
 git push
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Part 2
+
+
 docker stop csvserver && docker rm csvserver
 vi docker-compose.yaml
 vi csvserver.env
@@ -31,6 +35,8 @@ git commit -m "prometheus"
 git push
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Part 3
+
+
 docker-compose ps
 docker-compose down
 vi docker-compose.yaml
