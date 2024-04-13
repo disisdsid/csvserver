@@ -16,7 +16,8 @@ part 1
 # #docker run -d --name csvserver -v $(pwd)/inputFile:/csvserver/inputdata -e CSVSERVER_BORDER=Orange -p 9393:9300 infracloudio/csvserver:latest
 # #curl http://localhost:9393/
 # #git add .
-# #git commit -m "prometheus"
+# #git commit -m "first commit"
+# #git remote add disisdsid repo-url
 # #git push
 # ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # part 2
@@ -25,7 +26,7 @@ part 1
 # #vi csvserver.env
 # #docker-compose up -d
 # #git add .
-# #git commit -m "prometheus"
+# #git commit -m "docker-compose file"
 # #git push
 # -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # part 3
